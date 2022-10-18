@@ -3,3 +3,5 @@ Orange
 Apple
 pine-apple
 Mangoes
+lichi
+banana
