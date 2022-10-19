@@ -1,2 +1,3 @@
 Welcome to world of Cloud-tech
 Linux will be the first stage
+Basic Commands, User & Group management, etc
