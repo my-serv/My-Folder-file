@@ -1,14 +1,18 @@
 ---
  - name: playbook1
    hosts: all
-   vars:
-     a: "hello world"
-     b: "welcome to cloudblitz"
+   become: true
    tasks:
-    - name: task_1
-      debug:
-          msg: "{{a}}"
-    - name: task_2
-      debug:
-          msg: "{{b}}"
-...
+   - name: installing packages
+     ansible.builtin.apt:
+       name: apache2
+       state: latest
+
+   - name: startng packages
+     ansible.builtin.apt:
+       name: apache2
+       state: fixed
+...       
+       
+       
+   
