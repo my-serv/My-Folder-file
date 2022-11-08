@@ -1,5 +1,5 @@
 ---
- - name: playbook01
+ - name: template
    hosts: all 
    become: True
 
